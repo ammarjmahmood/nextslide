@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voice Slide Navigator</title>
+  <link rel="stylesheet" href="popup-styles.css">
+</head>
+<body>
+  <div class="popup-container">
+    <div class="header">
+      <h1>🎤 Voice Slide Navigator</h1>
+    </div>
+    
+    <div class="status-section">
+      <div id="status-indicator" class="status-indicator inactive">
+        <div class="status-dot"></div>
+        <span id="status-text">Inactive</span>
+      </div>
+    </div>
+    
+    <div class="info-section">
+      <h2>How to Use</h2>
+      <ol>
+        <li>Open a presentation in fullscreen</li>
+        <li>Press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd></li>
+        <li>Say <strong>"next slide"</strong> to advance</li>
+        <li>Press shortcut again to stop</li>
+      </ol>
+      
+      <div class="tip">
+        <strong>💡 Tip:</strong> On Mac, use <kbd>⌘</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd>
+      </div>
+    </div>
+    
+    <div class="footer">
+      <p>Works with Google Slides, PowerPoint Online, and most presentation tools</p>
+    </div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
